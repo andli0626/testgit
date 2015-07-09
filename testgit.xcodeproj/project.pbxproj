@@ -13,18 +13,7 @@
 		A8AEFD571B4D67E4004371C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AEFD551B4D67E4004371C4 /* Main.storyboard */; };
 		A8AEFD591B4D67E4004371C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AEFD581B4D67E4004371C4 /* Images.xcassets */; };
 		A8AEFD5C1B4D67E4004371C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AEFD5A1B4D67E4004371C4 /* LaunchScreen.xib */; };
-		A8AEFD681B4D67E4004371C4 /* testgitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AEFD671B4D67E4004371C4 /* testgitTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A8AEFD621B4D67E4004371C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A8AEFD401B4D67E4004371C4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8AEFD471B4D67E4004371C4;
-			remoteInfo = testgit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A8AEFD481B4D67E4004371C4 /* testgit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testgit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		A8AEFD561B4D67E4004371C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8AEFD581B4D67E4004371C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8AEFD5B1B4D67E4004371C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A8AEFD611B4D67E4004371C4 /* testgitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8AEFD661B4D67E4004371C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8AEFD671B4D67E4004371C4 /* testgitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A8AEFD451B4D67E4004371C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8AEFD5E1B4D67E4004371C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				A8AEFD4A1B4D67E4004371C4 /* testgit */,
-				A8AEFD641B4D67E4004371C4 /* testgitTests */,
 				A8AEFD491B4D67E4004371C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				A8AEFD481B4D67E4004371C4 /* testgit.app */,
-				A8AEFD611B4D67E4004371C4 /* testgitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A8AEFD641B4D67E4004371C4 /* testgitTests */ = {
-			isa = PBXGroup;
-			children = (
-				A8AEFD671B4D67E4004371C4 /* testgitTests.m */,
-				A8AEFD651B4D67E4004371C4 /* Supporting Files */,
-			);
-			path = testgitTests;
-			sourceTree = "<group>";
-		};
-		A8AEFD651B4D67E4004371C4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A8AEFD661B4D67E4004371C4 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +99,6 @@
 			productReference = A8AEFD481B4D67E4004371C4 /* testgit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8AEFD601B4D67E4004371C4 /* testgitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8AEFD6E1B4D67E4004371C4 /* Build configuration list for PBXNativeTarget "testgitTests" */;
-			buildPhases = (
-				A8AEFD5D1B4D67E4004371C4 /* Sources */,
-				A8AEFD5E1B4D67E4004371C4 /* Frameworks */,
-				A8AEFD5F1B4D67E4004371C4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8AEFD631B4D67E4004371C4 /* PBXTargetDependency */,
-			);
-			name = testgitTests;
-			productName = testgitTests;
-			productReference = A8AEFD611B4D67E4004371C4 /* testgitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,11 +110,7 @@
 				TargetAttributes = {
 					A8AEFD471B4D67E4004371C4 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = ZW95P3X8Q5;
-					};
-					A8AEFD601B4D67E4004371C4 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = A8AEFD471B4D67E4004371C4;
+						DevelopmentTeam = BB355PTPJT;
 					};
 				};
 			};
@@ -190,7 +128,6 @@
 			projectRoot = "";
 			targets = (
 				A8AEFD471B4D67E4004371C4 /* testgit */,
-				A8AEFD601B4D67E4004371C4 /* testgitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,13 +140,6 @@
 				A8AEFD571B4D67E4004371C4 /* Main.storyboard in Resources */,
 				A8AEFD5C1B4D67E4004371C4 /* LaunchScreen.xib in Resources */,
 				A8AEFD591B4D67E4004371C4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8AEFD5F1B4D67E4004371C4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,23 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8AEFD5D1B4D67E4004371C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8AEFD681B4D67E4004371C4 /* testgitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A8AEFD631B4D67E4004371C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A8AEFD471B4D67E4004371C4 /* testgit */;
-			targetProxy = A8AEFD621B4D67E4004371C4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A8AEFD551B4D67E4004371C4 /* Main.storyboard */ = {
@@ -281,8 +195,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jiangsu Guotai Epoint Software co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jiangsu Guotai Epoint Software co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -325,8 +239,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jiangsu Guotai Epoint Software co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jiangsu Guotai Epoint Software co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -350,7 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jiangsu Guotai Epoint Software co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = testgit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,44 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jiangsu Guotai Epoint Software co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = testgit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A8AEFD6F1B4D67E4004371C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testgitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testgit.app/testgit";
-			};
-			name = Debug;
-		};
-		A8AEFD701B4D67E4004371C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testgitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testgit.app/testgit";
 			};
 			name = Release;
 		};
@@ -419,15 +299,6 @@
 			buildConfigurations = (
 				A8AEFD6C1B4D67E4004371C4 /* Debug */,
 				A8AEFD6D1B4D67E4004371C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8AEFD6E1B4D67E4004371C4 /* Build configuration list for PBXNativeTarget "testgitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8AEFD6F1B4D67E4004371C4 /* Debug */,
-				A8AEFD701B4D67E4004371C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
