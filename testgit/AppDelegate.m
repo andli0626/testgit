@@ -4,7 +4,7 @@
 //
 //  Created by AndLi on 15/7/8.
 //  Copyright (c) 2015年 AndLi. All rights reserved.
-//
+//  测试自动编译
 
 #import "AppDelegate.h"
 
